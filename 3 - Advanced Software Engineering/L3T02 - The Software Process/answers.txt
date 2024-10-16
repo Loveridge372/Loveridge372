@@ -1,0 +1,23 @@
+1. Suggest which generic software model will be most appropriate for the development of the following systems.
+
+ > A system to control anti-lock braking in a car-The recommended model is waterfall model. The reason being that it is suitable for safety     critical systems where requirements are well defined and unlikely to change. The waterfall model allows for thorough verification at each stage which is essential for ensuring safety and reliability, given the complexity nature of the anti locking braking system.
+
+ >A virtual reality system to support software maintenance-Incremental development would be ideal. The reason behind this model is that virtual reality systems are often complex and can benefit from an iterative approach. Incremental development allows for the creation of basic version of the system that can be enhanced and expanded in increments and it provides flexibility and improvements over time, which is ideal for an evolving and innovative technology.
+
+ >A university accounting system that replaces an existing system-Reuse oriented software engineering is appropriate for systems where existing components can be utilized. in this case, there maybe established software modules reused and customized for the university's specific needs. This approach can reduce development time and cost by leveraging pre-existing solutions.
+
+ >An interactive travel planning system that helps users plan trips with the lowest environmental impact-Incremental development might be the suitable approach since it allows gradual addition of features and improvements based on user needs and environmental data updates. This process makes it easier to integrate real-time data sources and adapt to new sustainability metrics over time.
+
+2. Incremental development
+> It allows for flexibility and adaptability in a business environment where requirements often change as new needs arise and the market evolves.
+> it helps reduce risk by allowing early delivery of essential features and building upon them, which improves time-to-market and customer satisfaction.
+>It supports the delivery of small functional pieces of the software in increments and allowing for regular feedback from stakeholders and adjustments along the way.
+
+3. Reuse-oriented software engineering
+> Having these two steps is essential because this type of process focuses integrating pre-existing components, which often means the requirements need to be flexible to accommodate what is available. By first defining the requirements and then refining them based on the reusable components, then process ensures that the final system meets necessary functionality while effectively utilizing existing resources.
+
+
+
+
+REFRENCES
+Sommerville, I. (2011). Software Engineering 9. 9th ed. Boston: Pearson Education, inc.,pp.27-55
