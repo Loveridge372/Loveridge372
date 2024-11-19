@@ -1,13 +1,22 @@
 
-import os
-
-# Function to perform calculation
-def perform_calculation():
+# Extend the operation options and use Python’s math library for additional functions like square roots or logarithms.
+import math
+if operation == '**':
+    result = num1 ** num2
+elif operation == 'sqrt':
+    result = math.sqrt(num1)  # assuming num1 is non-negative
+    
+# Refactor the code to have smaller, more focused functions. For example, separating input validation, operation execution, and result saving into different functions.
+   def get_user_input():
     try:
-        # Input from user
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
         operation = input("Enter an operation (+, -, *, /): ")
+        return num1, num2, operation
+    except ValueError:
+        print("Invalid input. Please enter numbers.")
+        return None, None, None
+ 
 
         # Perform the calculation based on the operation
         if operation == '+':
